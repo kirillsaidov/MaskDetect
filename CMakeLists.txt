@@ -13,7 +13,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # build
 add_executable(${PROJECT_NAME} ${SOURCES})
-target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_14)
+target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)
 target_include_directories(${PROJECT_NAME} PRIVATE include)
 
 # opencv setup
